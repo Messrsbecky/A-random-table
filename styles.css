@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+div.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: #fffdef;
+    color: #2d2e28;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#e9edc9 ;
+    color: #5f634f;
+}
+
+th{
+    color: #777c66;
+}
+
+table, caption, th, td{
+    border: solid 1px #d4a373;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 3px 0;
+}
+
+tr:hover {background-color: coral;} 
